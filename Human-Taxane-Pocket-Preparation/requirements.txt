@@ -1,0 +1,6 @@
+# Core libraries; install these in the notebook's Python environment.
+numpy>=1.26
+gemmi>=0.7
+rdkit>=2024.3
+jupyterlab
+ipykernel

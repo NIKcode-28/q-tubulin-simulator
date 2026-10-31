@@ -1,0 +1,139 @@
+{
+  "coverage": {
+    "accepted_entries": 3,
+    "excluded_entries": 0,
+    "retrieval_errors": 0,
+    "pocket_records": 3,
+    "prepared_scenarios": 9,
+    "needs_review_pockets": 2,
+    "ready_regions": 3
+  },
+  "pockets": [
+    {
+      "pdb_id": "1JFF",
+      "status": "ready",
+      "residues": 23,
+      "scenarios": [
+        {
+          "atoms": 586,
+          "charge": -1,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": true,
+          "warnings": [],
+          "protonation": {
+            "B:1:227:None:HIS": "HID"
+          }
+        },
+        {
+          "atoms": 586,
+          "charge": -1,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": true,
+          "warnings": [],
+          "protonation": {
+            "B:1:227:None:HIS": "HIE"
+          }
+        },
+        {
+          "atoms": 587,
+          "charge": 0,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": true,
+          "warnings": [],
+          "protonation": {
+            "B:1:227:None:HIS": "HIP"
+          }
+        }
+      ]
+    },
+    {
+      "pdb_id": "9WDA",
+      "status": "needs_review",
+      "residues": 27,
+      "scenarios": [
+        {
+          "atoms": 718,
+          "charge": 2,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": false,
+          "warnings": [
+            "Local density screening flag: b:276 ARG",
+            "Local density screening flag: b:359 ARG"
+          ],
+          "protonation": {
+            "B:1:227:None:HIS": "HID"
+          }
+        },
+        {
+          "atoms": 718,
+          "charge": 2,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": false,
+          "warnings": [
+            "Local density screening flag: b:276 ARG",
+            "Local density screening flag: b:359 ARG"
+          ],
+          "protonation": {
+            "B:1:227:None:HIS": "HIE"
+          }
+        },
+        {
+          "atoms": 719,
+          "charge": 3,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": false,
+          "warnings": [
+            "Local density screening flag: b:276 ARG",
+            "Local density screening flag: b:359 ARG"
+          ],
+          "protonation": {
+            "B:1:227:None:HIS": "HIP"
+          }
+        }
+      ]
+    },
+    {
+      "pdb_id": "9WDB",
+      "status": "needs_review",
+      "residues": 26,
+      "scenarios": [
+        {
+          "atoms": 682,
+          "charge": 1,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": false,
+          "warnings": [
+            "Local density screening flag: b:276 ARG"
+          ],
+          "protonation": {
+            "B:1:227:None:HIS": "HID"
+          }
+        },
+        {
+          "atoms": 682,
+          "charge": 1,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": false,
+          "warnings": [
+            "Local density screening flag: b:276 ARG"
+          ],
+          "protonation": {
+            "B:1:227:None:HIS": "HIE"
+          }
+        },
+        {
+          "atoms": 683,
+          "charge": 2,
+          "chemistry_checks_passed": true,
+          "ready_for_integrals": false,
+          "warnings": [
+            "Local density screening flag: b:276 ARG"
+          ],
+          "protonation": {
+            "B:1:227:None:HIS": "HIP"
+          }
+        }
+      ]
+    }
+  ]
+}
