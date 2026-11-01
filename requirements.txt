@@ -1,0 +1,6 @@
+pyscf==2.14.0
+PyYAML==6.0.3
+qiskit==2.6.1
+qiskit-algorithms==0.4.0
+qiskit-nature==0.8.0
+strictyaml==1.7.3
