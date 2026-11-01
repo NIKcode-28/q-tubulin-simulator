@@ -1,0 +1,30 @@
+# Person 2 pipeline config. Every setting that affects a number lives here.
+# Person 3 copies this file and changes ONLY: atom/xyz, charge, spin, target atoms.
+
+scf:
+  basis: sto3g            # debug basis; switch to def2-svp for reference runs
+  charge: 0
+  spin: 0                 # 2S = 0 (closed shell, RHF)
+
+mapper: parity            # jordan_wigner | parity | bravyi_kitaev
+
+output_dir: results
+
+# Each entry is one system. For the pocket model, replace `atom` with `xyz: pocket_wt.xyz`.
+systems:
+  h2:
+    atom: "H 0 0 0; H 0 0 0.735"
+    active_space: null            # use the full space
+    reference_energy: -1.137      # known literature value (hartree), optional check
+  lih_full:
+    atom: "Li 0 0 0; H 0 0 1.6"
+    active_space: null
+  lih_active:
+    atom: "Li 0 0 0; H 0 0 1.6"
+    active_space:
+      num_electrons: 2
+      num_spatial_orbitals: 3
+
+tolerances:
+  casci_vs_qubit_hartree: 1.0e-6
+  reference_hartree: 1.0e-3
