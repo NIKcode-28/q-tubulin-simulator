@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "configuration": {
+    "ids": [
+      "9WDA",
+      "9WDB",
+      "1JFF"
+    ],
+    "output": "active_space_outputs/completed",
+    "pocket_A": 5.0,
+    "histidine": "HIE",
+    "basis": "def2-svp",
+    "thresholds": {
+      "base": 0.1,
+      "expanded": 0.08
+    },
+    "max_qm_atoms": 60,
+    "max_aos": 400,
+    "max_active": 12,
+    "max_determinants": 250000,
+    "threads": 2,
+    "memory_MB": 2000,
+    "force_recalculate": false,
+    "make_cubes": false
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "gemmi": "0.7.5",
+    "rdkit": "2026.9.1",
+    "pyscf": "2.14.0",
+    "qiskit": "2.6.1",
+    "qiskit-nature": "0.8.0"
+  },
+  "input_file_sha256": {
+    "1JFF.cif": "25d7bd6ff06bdc0e303c9fc443b58e7c4c37b86a014b219845ab77acc9676f34",
+    "9WDA.cif": "36c709342d6ef9e457f38dbacc8efa1d6c635a8e842aa8cf1e611b72d731808f",
+    "9WDB.cif": "ffba7c6a411540ba6949b56709e38c3a2f085ff073f89583c4f743985ebc033b",
+    "ccd/ALA.cif": "6d32b34d4f7b3ddf0cd3dff3f98ddaf7649bc5303ff9a8bd95ba62283f47a1ca",
+    "ccd/ARG.cif": "191c437cfa501e0a87d275ca3d39974a1a9c8dc704df61bfc442a4c314e196ac",
+    "ccd/ASP.cif": "82c4a2d0b5eda0a32c36f106f0bb00edbc5bc51172db414fdc494025b7b8c858",
+    "ccd/CYS.cif": "b28c79381f9f41fe57a9e97468fc8101d5fd1064272a22da1eed6d05d27a24cc",
+    "ccd/GLN.cif": "b542ea5c013fbe0c7acee8e3f42d5dc4e392bd16c0aa545edbf6cb3c335ca30f",
+    "ccd/GLU.cif": "99fa19054d31b07e7101b33ad9cc847cc6a209da60de279aed5e6a9236bb6da4",
+    "ccd/GLY.cif": "c49458946b0ebc057db6ad0a4e1557a1caaed4c80a203accd458efddccbf92ff",
+    "ccd/HIS.cif": "89355e09d9c622dd514738e559d7a75ab0a1659df9a179978e88e1a44704a46f",
+    "ccd/LEU.cif": "fc56e022bc8baa25dc6e543b2c46664e365779aa1dda9831576fdf10b30ab84b",
+    "ccd/LYS.cif": "318a0f6fa8f98682b35e1793517d5b683b9045c1e6174bc564b7d43e07e4c07c",
+    "ccd/PHE.cif": "002c626d24aec78fd622459d4f4470c682c7c3f9f97d32414fec4313d780496e",
+    "ccd/PRO.cif": "08674e4d60bc40ad5702b8de6e5e4abb66c2bbb603832c021c31194f4b4e593c",
+    "ccd/SER.cif": "46db0296a07732854d2c3ca67ed0f74f4c82ddc5698d0e59f433039a5d7c88a0",
+    "ccd/TA1.cif": "9dbd05adc51f12669b612d7515af576747c67351d3f2e7df929c088294bff6bb",
+    "ccd/THR.cif": "feb75dfac5bfcc7045de7a75a31575f3bf3e5b411716a06e92712924759dd554",
+    "ccd/VAL.cif": "9c3c807970c817b1e1a4b43164db91a5bf1e7bf438b3269c5649f6ce84d4c0ed"
+  },
+  "results": [
+    {
+      "structure": "9WDA",
+      "space": "base",
+      "active_electrons": 12,
+      "spatial_orbitals": 10,
+      "qubits": 20,
+      "CASCI_Eh": -700.9668134295325,
+      "mapping_verified": true,
+      "mapped_residual_Eh": 1.940365325673785e-06,
+      "FCIDUMP": "9WDA/base.FCIDUMP"
+    },
+    {
+      "structure": "9WDA",
+      "space": "expanded",
+      "active_electrons": 12,
+      "spatial_orbitals": 11,
+      "qubits": 22,
+      "CASCI_Eh": -700.9787184197778,
+      "mapping_verified": true,
+      "mapped_residual_Eh": 3.313920661682391e-06,
+      "FCIDUMP": "9WDA/expanded.FCIDUMP"
+    },
+    {
+      "structure": "9WDB",
+      "space": "base",
+      "active_electrons": 12,
+      "spatial_orbitals": 10,
+      "qubits": 20,
+      "CASCI_Eh": -700.9612196752802,
+      "mapping_verified": true,
+      "mapped_residual_Eh": 3.4438408177276946e-06,
+      "FCIDUMP": "9WDB/base.FCIDUMP"
+    },
+    {
+      "structure": "9WDB",
+      "space": "expanded",
+      "active_electrons": 12,
+      "spatial_orbitals": 11,
+      "qubits": 22,
+      "CASCI_Eh": -700.9730820932023,
+      "mapping_verified": true,
+      "mapped_residual_Eh": 1.65003662981093e-06,
+      "FCIDUMP": "9WDB/expanded.FCIDUMP"
+    },
+    {
+      "structure": "1JFF",
+      "space": "base",
+      "active_electrons": 12,
+      "spatial_orbitals": 9,
+      "qubits": 18,
+      "CASCI_Eh": -700.901204551725,
+      "mapping_verified": true,
+      "mapped_residual_Eh": 1.1236925647979659e-06,
+      "FCIDUMP": "1JFF/base.FCIDUMP"
+    },
+    {
+      "structure": "1JFF",
+      "space": "expanded",
+      "active_electrons": 12,
+      "spatial_orbitals": 11,
+      "qubits": 22,
+      "CASCI_Eh": -700.9289858716384,
+      "mapping_verified": true,
+      "mapped_residual_Eh": 1.527952634592862e-06,
+      "FCIDUMP": "1JFF/expanded.FCIDUMP"
+    }
+  ],
+  "warnings": {
+    "9WDA": [],
+    "9WDB": [],
+    "1JFF": [
+      "O14...H-NE2 angle <120 degrees; do not label this a validated hydrogen bond."
+    ]
+  },
+  "scientific_scope": "Static finite MMFF94-embedded contact models. No binding affinities or quantum advantage."
+}

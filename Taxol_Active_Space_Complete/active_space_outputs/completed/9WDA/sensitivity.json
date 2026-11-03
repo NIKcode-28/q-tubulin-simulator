@@ -1,0 +1,7 @@
+{
+  "base_orbitals": 10,
+  "expanded_orbitals": 11,
+  "expanded_minus_base_Eh": -0.011904990245284353,
+  "interpretation": "Active-space sensitivity within this fixed model; not a binding or mutation free energy.",
+  "expanded_is_larger": true
+}

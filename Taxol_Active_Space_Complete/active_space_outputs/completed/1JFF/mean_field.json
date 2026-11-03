@@ -1,0 +1,14 @@
+{
+  "density_fitted_RHF_Eh": -700.8475207699892,
+  "converged": true,
+  "internally_stable": true,
+  "atoms": 31,
+  "atomic_orbitals": 299,
+  "total_electrons": 116,
+  "origin_shift_A": [
+    -1.7861817032197456,
+    -12.531394097903396,
+    15.696689786239356
+  ],
+  "exact_energy_on_DF_density_Eh": -700.8479939010549
+}

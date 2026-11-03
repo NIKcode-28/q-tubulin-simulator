@@ -1,0 +1,19 @@
+{
+  "9WDA": {
+    "qm_atoms": 31,
+    "mm_atoms": 720,
+    "warnings": []
+  },
+  "9WDB": {
+    "qm_atoms": 31,
+    "mm_atoms": 720,
+    "warnings": []
+  },
+  "1JFF": {
+    "qm_atoms": 31,
+    "mm_atoms": 721,
+    "warnings": [
+      "O14...H-NE2 angle <120 degrees; do not label this a validated hydrogen bond."
+    ]
+  }
+}

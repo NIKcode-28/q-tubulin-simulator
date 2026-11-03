@@ -1,0 +1,26 @@
+{
+  "9WDA": {
+    "source_hash_matches": true,
+    "experimental_heavy_coordinates_preserved": true,
+    "QM_MM_partition_disjoint_complete": true,
+    "charge_conserved": true,
+    "saved_SDF_sanitizes_and_has_MMFF94_parameters": true,
+    "incomplete_ligand_rejected": true
+  },
+  "9WDB": {
+    "source_hash_matches": true,
+    "experimental_heavy_coordinates_preserved": true,
+    "QM_MM_partition_disjoint_complete": true,
+    "charge_conserved": true,
+    "saved_SDF_sanitizes_and_has_MMFF94_parameters": true,
+    "incomplete_ligand_rejected": true
+  },
+  "1JFF": {
+    "source_hash_matches": true,
+    "experimental_heavy_coordinates_preserved": true,
+    "QM_MM_partition_disjoint_complete": true,
+    "charge_conserved": true,
+    "saved_SDF_sanitizes_and_has_MMFF94_parameters": true,
+    "incomplete_ligand_rejected": true
+  }
+}

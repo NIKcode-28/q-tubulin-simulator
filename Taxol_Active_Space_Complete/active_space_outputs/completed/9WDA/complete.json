@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "input_signature": "0ee717d2fdb0ba1026f20d53dad14bae4019e20051ad9d2868647fedc6288630",
+  "model_sha256": "6454eaa0816782294b645b975effd90f2e022ac555a7149c3c6b8820361c176d",
+  "file_hashes": {
+    "base.FCIDUMP": "8a3987a19ee561b07bd115ec563922b404ca14288c027d2d708eac0aba6a5bdf",
+    "base_hamiltonian.npz": "f21a4f3a2abfb3483a365d7a983a87cb6094a363945f15cf5d73982cd1bb7d95",
+    "base_orbital_character.csv": "165fc9e621f23b31ea3b082abe8414735fb406a44663e2fe4df8068407419663",
+    "base_orbitals.molden": "9d01ae20251295d469733fefd2a0b6d022d783b7c26de9b760d5d945bb305f08",
+    "base_paulis.csv": "66ebe3bfe9a73293a1fdfa6819a15a1225986b3f7dd320f15e9b2bd6350a2646",
+    "base_selection.json": "a1136f1832bfe5db842e72e8902f0c4258218543aa21d61ebb10bb939fa3e0c7",
+    "base_validation.json": "c424582b3c8393d27436560830ed2128bbdcf2c9d6569d00baec0eaeccf76693",
+    "expanded.FCIDUMP": "a77baa2918625d7271ecd7b74998638c1fc7f01ffcb42ea3c05fe18a27a062a6",
+    "expanded_hamiltonian.npz": "e21d0bde5e14354235487501fc413a8d085fd88874b88a1b983f0d64f4276ccf",
+    "expanded_orbital_character.csv": "e82913e0b72adaead0b9f28f2dc073e81a3902ff0cd91d0a5be02020e9dc9826",
+    "expanded_orbitals.molden": "2a0f43f5942b35daa58c9d23c9335776181660ce02bcdecd51a8ead36442d86f",
+    "expanded_paulis.csv": "c56143da10029340df6ddfd390a101093831ae6ed7a8d9fa0c5f9f6a0cdc4d6c",
+    "expanded_selection.json": "aa95e38514f3dfcfc5e1708f1ab9051f1a181d034347e06d232a388fdef5a089",
+    "expanded_validation.json": "6c0c26986301b729e2da98e46ecea540085b9cd68c62047007540ee85fb64a8a",
+    "mean_field.json": "e6efc2b53bde595e3a42deb6a5a12dc60119d64d91004023849b67775a52d719"
+  },
+  "configuration": {
+    "ids": [
+      "9WDA",
+      "9WDB",
+      "1JFF"
+    ],
+    "output": "active_space_outputs/completed",
+    "pocket_A": 5.0,
+    "histidine": "HIE",
+    "basis": "def2-svp",
+    "thresholds": {
+      "base": 0.1,
+      "expanded": 0.08
+    },
+    "max_qm_atoms": 60,
+    "max_aos": 400,
+    "max_active": 12,
+    "max_determinants": 250000,
+    "threads": 2,
+    "memory_MB": 2000,
+    "force_recalculate": false,
+    "make_cubes": false
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "gemmi": "0.7.5",
+    "rdkit": "2026.9.1",
+    "pyscf": "2.14.0",
+    "qiskit": "2.6.1",
+    "qiskit-nature": "0.8.0"
+  }
+}

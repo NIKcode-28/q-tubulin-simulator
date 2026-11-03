@@ -1,0 +1,20 @@
+{
+  "purpose": "LiH software test, not Taxol",
+  "CASCI_Eh": -7.861772871996649,
+  "mapped_state_Eh": -7.861772871996649,
+  "mapped_residual_Eh": 2.224812446106885e-16,
+  "particle_sector_dimension": 4,
+  "outside_sector_squared_norm": 0.0,
+  "reloaded_FCI_Eh": -7.861772871996649,
+  "scalar_offset_Eh": -6.766815160405518,
+  "qubits": 4,
+  "pauli_terms": 27,
+  "FCIDUMP_sha256": "ae37cad1806ff47d5bddc82e0db5f2a9850cd30ecda8436bccf27d1c62d3315d",
+  "mapping_verified": true,
+  "scalar_in_pauli_csv": false,
+  "scalar_contents": "inactive electrons + QM nuclear repulsion + QM-nuclear/MM electrostatics",
+  "excluded_energy_terms": "MM-MM, mechanical, restraint and van der Waals energies",
+  "units": "hartree",
+  "h2_notation": "real spatial (pq|rs), chemist order",
+  "mapping_mode_order": "Qiskit alpha block then beta block; Pauli rightmost character is qubit 0"
+}
