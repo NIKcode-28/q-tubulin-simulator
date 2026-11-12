@@ -1,0 +1,4 @@
+structure,qubits,pauli_terms,ansatz,maxiter,evaluations,vqe_total_energy_Ha,classical_reference_energy_Ha,optimization_time_s,total_time_s,absolute_error_mHa
+1JFF,16,9296,UCC (2 selected double excitations),40,32,-700.848539917709,-700.901204551725,172.76,191.11,52.66463
+9WDA,18,14251,UCC (2 selected double excitations),40,35,-700.9004612604812,-700.9668134295325,499.64,518.4,66.35217
+9WDB,18,14243,UCC (2 selected double excitations),40,30,-700.895058409144,-700.9612196752802,422.59,441.44,66.16127
